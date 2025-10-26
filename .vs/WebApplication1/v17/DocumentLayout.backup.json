@@ -1,34 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\",
+  "WorkspaceRootPath": "C:\\Users\\havuh\\OneDrive\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|c:\\users\\havuh\\desktop\\trangwebbanlaptop-dienthoai-tainghe_khamkhao-cellphones-main\\views\\home\\cellphones_homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|c:\\users\\havuh\\onedrive\\desktop\\trangwebbanlaptop-dienthoai-tainghe_khamkhao-cellphones-main\\views\\home\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|solutionrelative:views\\home\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|C:\\Users\\havuh\\OneDrive\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\views\\home\\cellphones_homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|solutionrelative:views\\home\\cellphones_homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\views\\home\\dienthoaiapple14.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|C:\\Users\\havuh\\OneDrive\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\content\\sanpham.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|solutionrelative:content\\sanpham.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|C:\\Users\\havuh\\OneDrive\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\views\\home\\dienthoaiapple14.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|solutionrelative:views\\home\\dienthoaiapple14.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\views\\amthanh\\amthanh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|solutionrelative:views\\amthanh\\amthanh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\views\\amthanh\\sony.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|solutionrelative:views\\amthanh\\sony.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\views\\home\\dienthoai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|solutionrelative:views\\home\\dienthoai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\views\\home\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|solutionrelative:views\\home\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\views\\home\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B79A4174-E9EC-48D6-90D1-F9C8F66EFC6C}|CellPhoneS_Project.csproj|solutionrelative:views\\home\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,103 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CellPhoneS_Homepage.cshtml",
-              "DocumentMoniker": "C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\Home\\CellPhoneS_Homepage.cshtml",
+              "DocumentMoniker": "C:\\Users\\havuh\\OneDrive\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\Home\\CellPhoneS_Homepage.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\CellPhoneS_Homepage.cshtml",
-              "ToolTip": "C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\Home\\CellPhoneS_Homepage.cshtml",
+              "ToolTip": "C:\\Users\\havuh\\OneDrive\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\Home\\CellPhoneS_Homepage.cshtml",
               "RelativeToolTip": "Views\\Home\\CellPhoneS_Homepage.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAwEMAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAIUAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-12T10:20:02.454Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DienthoaiApple14.cshtml",
-              "DocumentMoniker": "C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\Home\\DienthoaiApple14.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\DienthoaiApple14.cshtml",
-              "ToolTip": "C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\Home\\DienthoaiApple14.cshtml",
-              "RelativeToolTip": "Views\\Home\\DienthoaiApple14.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEoAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Giohang.cshtml",
+              "DocumentMoniker": "C:\\Users\\havuh\\OneDrive\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\Home\\Giohang.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Giohang.cshtml",
+              "ToolTip": "C:\\Users\\havuh\\OneDrive\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\Home\\Giohang.cshtml",
+              "RelativeToolTip": "Views\\Home\\Giohang.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAE0AAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T11:28:55.926Z",
+              "WhenOpened": "2025-10-20T06:36:26.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AmThanh.cshtml",
-              "DocumentMoniker": "C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\AmThanh\\AmThanh.cshtml",
-              "RelativeDocumentMoniker": "Views\\AmThanh\\AmThanh.cshtml",
-              "ToolTip": "C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\AmThanh\\AmThanh.cshtml",
-              "RelativeToolTip": "Views\\AmThanh\\AmThanh.cshtml",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAAAMUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T11:23:09.806Z",
-              "EditorCaption": ""
+              "Title": "sanpham.js",
+              "DocumentMoniker": "C:\\Users\\havuh\\OneDrive\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Content\\sanpham.js",
+              "RelativeDocumentMoniker": "Content\\sanpham.js",
+              "ToolTip": "C:\\Users\\havuh\\OneDrive\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Content\\sanpham.js",
+              "RelativeToolTip": "Content\\sanpham.js",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-20T06:31:16.284Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Sony.cshtml",
-              "DocumentMoniker": "C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\AmThanh\\Sony.cshtml",
-              "RelativeDocumentMoniker": "Views\\AmThanh\\Sony.cshtml",
-              "ToolTip": "C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\AmThanh\\Sony.cshtml",
-              "RelativeToolTip": "Views\\AmThanh\\Sony.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAE8AAAAHAAAAAAAAAA==",
+              "Title": "DienthoaiApple14.cshtml",
+              "DocumentMoniker": "C:\\Users\\havuh\\OneDrive\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\Home\\DienthoaiApple14.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\DienthoaiApple14.cshtml",
+              "ToolTip": "C:\\Users\\havuh\\OneDrive\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\Home\\DienthoaiApple14.cshtml",
+              "RelativeToolTip": "Views\\Home\\DienthoaiApple14.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T11:22:11.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Dienthoai.cshtml",
-              "DocumentMoniker": "C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\Home\\Dienthoai.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Dienthoai.cshtml",
-              "ToolTip": "C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\Home\\Dienthoai.cshtml",
-              "RelativeToolTip": "Views\\Home\\Dienthoai.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T11:08:13.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Dangky.cshtml",
-              "DocumentMoniker": "C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\Home\\Dangky.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Dangky.cshtml",
-              "ToolTip": "C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\Home\\Dangky.cshtml",
-              "RelativeToolTip": "Views\\Home\\Dangky.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T10:48:58.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Dangnhap.cshtml",
-              "DocumentMoniker": "C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\Home\\Dangnhap.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Dangnhap.cshtml",
-              "ToolTip": "C:\\Users\\havuh\\Desktop\\Trangwebbanlaptop-dienthoai-tainghe_Khamkhao-CellPhoneS-main\\Views\\Home\\Dangnhap.cshtml",
-              "RelativeToolTip": "Views\\Home\\Dangnhap.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T10:48:58.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T11:28:55.926Z"
             }
           ]
         }

@@ -16,10 +16,13 @@
             <!-- Phần sản phẩm giỏ hàng -->
             <div class="cart-items">
                 <h2>Giỏ hàng</h2>
+                <div class="product-card">
+                    <img src="https://cdn1.viettelstore.vn/Images/Product/ProductImage/1644285630.jpeg" alt="iPhone 17 Pro Max 256GB" />
+                    <h3>Iphone 17 PRO MAX 256GB | Chính hãng</h3>
+                </div>
                 <div class="cart-item">
                     <div class="cart-info">
-                        <p class="cart-title">___</p>
-                        <p class="cart-price">___</p>
+                        <p class="cart-price">33.990.000đ</p>
                         <div class="cart-qty">
                             <button>-</button>
                             <input type="text" value="1" />
@@ -59,5 +62,54 @@
             </div>
         </div>
     </main>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+
+            function updateCartTotal() {
+                let total = 0;
+                document.querySelectorAll(".cart-item").forEach(function (item) {
+                    let priceText = item.querySelector(".cart-price").innerText;
+
+ 
+                    let quantity = parseInt(item.querySelector(".cart-qty input").value) || 1;
+
+                    let priceNumber = parseFloat(priceText.replace(/\./g, '').replace('đ', ''));
+
+                    if (!isNaN(priceNumber)) { 
+                        total += priceNumber * quantity;
+                    }
+                });
+                let totalElement = document.querySelector(".total p span");
+
+                totalElement.innerText = total.toLocaleString('vi-VN') + 'đ';
+            }
+
+            document.querySelectorAll(".cart-item").forEach(function (item) {
+                let minusBtn = item.querySelector(".cart-qty button:first-child");
+                let plusBtn = item.querySelector(".cart-qty button:last-child");
+                let qtyInput = item.querySelector(".cart-qty input");
+
+                minusBtn.addEventListener("click", function () {
+                    let currentValue = parseInt(qtyInput.value) || 1;
+                    if (currentValue > 1) {
+                        qtyInput.value = currentValue - 1;
+                        updateCartTotal(); 
+                    }
+                });
+
+                plusBtn.addEventListener("click", function () {
+                    let currentValue = parseInt(qtyInput.value) || 1;
+                    qtyInput.value = currentValue + 1;
+                    updateCartTotal();
+                });
+            });
+
+            updateCartTotal();
+        });
+    </script>
+
+
 </body>
 </html>

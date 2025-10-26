@@ -15,6 +15,9 @@
         });
     });
 });
+
+
+
 document.getElementById("shippingForm").addEventListener("submit", function (e) {
     e.preventDefault();
 
@@ -40,8 +43,8 @@ document.getElementById("shippingForm").addEventListener("submit", function (e) 
 
     // Số điện thoại
     const phone = document.getElementById("phone");
-    if (phone.value.trim() === "" || phone.value.length > 10) {
-        setError(phone, "Số điện thoại không hợp lệ (tối đa 10 ký tự)");
+    if (phone.value.trim() === "" || phone.value.length > 12  || phone.value.length < 10) {
+        setError(phone, "Số điện thoại không hợp lệ (tối đa 12 ký tự)");
         isValid = false;
     } else {
         clearError(phone);
