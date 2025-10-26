@@ -1,0 +1,114 @@
+﻿@{
+    ViewBag.Title = "SamsungBudsCore";
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+}
+
+<head>
+    <!-- CSS mặc định -->
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+
+<main class="main">
+    <!-- Chi tiết sản phẩm -->
+    <div class="product-detail">
+        <!-- Cột trái -->
+        <div class="product-left">
+            <img id="mainProductImage"
+                 src="~/Content/AmThanh/ss2.png"
+                 alt="Tai nghe Samsung Galaxy Buds Core"
+                 class="product-image" />
+
+            <div class="highlight-box">
+                <h3>TÍNH NĂNG NỔI BẬT</h3>
+                <ul>
+                    <li>Chống ồn chủ động ANC giúp tạo không gian yên tĩnh, loại bỏ tiếng ồn không cần thiết.</li>
+                    <li>Thiết kế ôm sát tai với đầu mút silicon mềm mại, thoải mái cả ngày.</li>
+                    <li>3 micro hoạt động đồng bộ để thu giọng nói rõ ràng và sắc nét.</li>
+                    <li>Điều khiển đơn giản chỉ với một chạm.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Cột phải -->
+        <div class="product-right">
+            <h2>Tai nghe Bluetooth Samsung Galaxy Buds Core (ANC)</h2>
+            <p class="rating">⭐ 4.9 (343 đánh giá)</p>
+            <p class="price">1.190.000₫</p>
+
+            <!-- Phiên bản -->
+            <div class="options">
+                <h4>Phiên bản</h4>
+                <div class="option-list">
+                    <button class="option selected">Buds FE</button>
+                </div>
+            </div>
+
+            <!-- Màu sắc -->
+            <div class="options">
+                <h4>Màu sắc</h4>
+                <div class="option-list">
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/c/_/c_4_1.png">
+                        Trắng
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/c/1/c1_1_1.png">
+                        Đen
+                    </button>
+                </div>
+            </div>
+
+            <!-- Nút hành động -->
+            <div class="action-buttons">
+                <button class="btn-installment">Trả góp 0%</button>
+                <button class="btn-buy">Mua ngay</button>
+                <button class="btn-cart">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thông số kỹ thuật -->
+    <div class="specs">
+        <h3>Thông số kỹ thuật</h3>
+        <table>
+            <tr>
+                <td>Kích thước</td>
+                <td>
+                    Tai nghe: 19.2 x 17.1 x 22.2 mm<br />
+                    Hộp sạc: 50.0 x 50.0 x 27.7 mm
+                </td>
+            </tr>
+            <tr>
+                <td>Trọng lượng</td>
+                <td>
+                    Tai nghe: 5.3 g<br />
+                    Hộp sạc: 31.2 g
+                </td>
+            </tr>
+            <tr>
+                <td>Công nghệ âm thanh</td>
+                <td>
+                    Active Noise Cancelling<br />
+                    Công nghệ ENC<br />
+                    Ambient Sound
+                </td>
+            </tr>
+            <tr><td>Micro</td><td>3 micro (mỗi tai)</td></tr>
+            <tr>
+                <td>Thời lượng Pin</td>
+                <td>
+                    Tai nghe: 8.5 giờ (tắt ANC)<br />
+                    Hộp sạc: 35 giờ
+                </td>
+            </tr>
+            <tr>
+                <td>Phương thức điều khiển</td>
+                <td>Cảm ứng chạm</td>
+            </tr>
+            <tr><td>Hãng sản xuất</td><td>Samsung</td></tr>
+        </table>
+    </div>
+
+    <!-- Script JS -->
+    <script src="~/Content/sanpham.js"></script>
+</main>

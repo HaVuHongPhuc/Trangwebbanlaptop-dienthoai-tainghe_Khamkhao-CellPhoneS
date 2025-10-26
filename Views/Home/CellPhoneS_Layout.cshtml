@@ -1,0 +1,124 @@
+﻿@{
+    Layout = null;
+    ViewBag.Title = "CellphoneS";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/Content/Layout.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="headercenter">
+            <a style="color:white; text-decoration:none;" href="~/Home/CellPhoneS_Homepage"><h2>Cellphone<strong>S</strong></h2></a>
+            <form class="danhmuc">
+                <i class="fa-solid fa-list"></i>
+                <select onchange="location.href=this.value" class="danhmuc">
+                    <option value="dm">Danhmục </option>
+                    <option value="~/Home/Dienthoai">Điện thoại</option>                    
+                    <option value="~/Laptop/Laptop">Laptop</option>
+                    <option value="~/AmThanh/AmThanh">Âm thanh</option>
+                </select>
+            </form>
+            <form class="tinhthanh">
+                <i class="fa-solid fa-location-dot"></i>
+                <select class="tinhthanh">
+                    <option value="">Chọn tỉnh thành</option>
+                    <option value="ho-chi-minh">Hồ Chí Minh</option>
+                    <option value="an-giang">An Giang</option>
+                    <option value="bac-lieu">Bạc Liêu</option>
+                    <option value="bac-ninh">Bắc Ninh</option>
+                    <option value="ben-tre">Bến Tre</option>
+                    <option value="binh-dinh">Bình Định</option>
+                    <option value="binh-thuan">Bình Thuận</option>
+                    <option value="can-tho">Cần Thơ</option>
+                    <option value="hai-phong">Hải Phòng</option>
+                    <option value="ha-noi">Hà Nội</option>
+                    <option value="kien-giang">Kiên Giang</option>
+                    <option value="long-an">Long An</option>
+                    <option value="nghe-an">Nghệ An</option>
+                    <option value="phu-tho">Phú Thọ</option>
+                    <option value="quang-binh">Quảng Bình</option>
+                    <option value="quang-ngai">Quảng Ngãi</option>
+                    <option value="thanh-hoa">Thanh Hóa</option>
+                    <option value="tien-giang">Tiền Giang</option>
+                    <option value="vinh-long">Vĩnh Long</option>
+                    <option value="vinh-phuc">Vĩnh Phúc</option>
+                </select>
+            </form>
+            <form class="searchform">
+                <input type="text" placeholder="Bạn muốn mua gì hôm nay?">
+                <button><i class="fa fa-search"></i></button>
+            </form>
+            <a class="giohang" href="~/Home/Giohang">Giỏ hàng <i class="fa-solid fa-cart-shopping"></i></a>
+            <a class="dangnhap" href="~/Home/Dangnhap">Đăng nhập <i class="fa-regular fa-user"></i></a>
+        </div>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer class="footer">
+        <div class="footercenter">
+            <div>
+                <p><strong>Tổng đài hỗ trợ miễn phí</strong><br />
+                <p>
+                    Mua hàng - bảo hành <strong>1800.2097</strong>(7h30 - 22h00)<br />
+                    Khiếu nại <strong>1800.2063</strong> (8h00 - 21h30)
+                </p>
+            </div>
+            <div>
+                <p><strong>Thông tin về chính sách</strong></p>
+                <p>
+                    Mua hàng và thanh toán Online<br />
+                    Mua hàng trả góp Online<br />
+                    Mua hàng trả góp bằng thẻ tín dụng<br />
+                    Chính sách giao hàng<br />
+                    Chính sách đổi trả<br />
+                    Tra điểm Smember<br />
+                    Xem ưu đãi Smember<br />
+                    Tra thông tin bảo hành<br />
+                    Tra cứu hoá đơn điện tử<br />
+                    Thông tin hoá đơn mua hàng<br />
+                    Trung tâm bảo hành chính hãng<br />
+                    Quy định về việc sao lưu dữ liệu<br />
+                    Chính sách khui hộp sản phẩm Apple<br />
+                    VAT Refund
+                </p>
+            </div>
+            <div>
+                <p>
+                    <strong>Dịch vụ và thông tin khác</strong><br />
+                    Khách hàng doanh nghiệp (B2B)<br />
+                    Ưu đãi thanh toán<br />
+                    Quy chế hoạt động<br />
+                    Chính sách bảo mật thông tin cá nhân<br />
+                    Chính sách Bảo hành<br />
+                    Liên hệ hợp tác kinh doanh<br />
+                    Tuyển dụng<br />
+                    Dịch vụ bảo hành mở rộng
+                </p>
+            </div>
+            <div>
+                <p>
+                    <strong>Kết nối với CellPhoneS</strong><br><br />
+                    <a href="https://www.youtube.com/CellphoneSOfficial"> <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" width="40" height="40" /></a>
+                    <a href="https://www.instagram.com/cellphonesvn"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png" width="40" height="40" /></a>
+                    <a href="https://www.facebook.com/CellphoneSVietnam"> <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Logo_de_Facebook.png" width="40" height="40" /></a>
+                    <a href="https://www.tiktok.com/cellphones.official"> <img src="https://img.freepik.com/premium-vector/tik-tok-logo_578229-290.jpg?semt=ais_hybrid&w=740&q=80" width="40" height="40" /></a>
+                    <a href="https://oa.zalo.me/3894196696036261863"> <img src=https://icolor.vn/wp-content/uploads/2024/08/logo-zalo-2.jpg" width="40" height="40" /></a>
+                </p>
+                <p>
+                    <strong>Web thành viên</strong><br><br />
+                    Hệ thống bảo hành và chăm sóc Điện thoại - Máy tính<br />
+                    <a href="https://dienthoaivui.com.vn/"><img src="https://static.cellphones.com.vn/img/dtv.2181eec.png" width="100" height="40" /></a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

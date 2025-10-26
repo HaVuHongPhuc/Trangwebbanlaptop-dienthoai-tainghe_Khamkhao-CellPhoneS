@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewBag.Title = "DienthoaiApple17PM2TB";
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+}
+<head>
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+
+<main class="main">
+    @*Thông tin sản phẩm*@
+    <div class="product-detail">
+        @*Hình ảnh + mô tả nổi bật*@
+        <div class="product-left">
+            <img id="mainProductImage"
+                 src="https://cdn1.viettelstore.vn/Images/Product/ProductImage/1644285630.jpeg"
+                 alt="iPhone 17" class="product-image">
+
+            <div class="highlight-box">
+                <h3>TÍNH NĂNG NỔI BẬT</h3>
+                <ul>
+                    <li>Thiết kế titan nhẹ và bền bỉ, Màn hình ProMotion 120Hz và độ sáng 3000 nits.</li>
+                    <li>Chip A19 Pro và Hệ thống tản nhiệt buồng hơi.</li>
+                    <li>Hệ thống Camera Pro Fusion 48MP toàn diện.</li>
+                </ul>
+            </div>
+        </div>
+
+        @*Giá + tùy chọn*@
+        <div class="product-right">
+            <h2>Iphone 17 Pro Max 2TB | Chính hãng VN/A</h2>
+            <p class="rating">⭐ 4.9 (343 đánh giá)</p>
+            <p class="price">60.990.000đ</p>
+
+            @*Chọn phiên bản*@
+            <div class="options">
+                <h4>Phiên bản</h4>
+                <div class="option-list">
+                    <button class="option selected">2TB</button>
+                </div>
+            </div>
+
+            @*Chọn màu*@
+            <div class="options">
+                <h4>Màu sắc</h4>
+                <div class="option-list">
+                    <button class="option color-option"
+                            data-img="https://cdn1.viettelstore.vn/Images/Product/ProductImage/1644285630.jpeg">
+                        Titan Bạc
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://cdn.tgdd.vn/Products/Images/42/342679/iphone-17-pro-max-xanh-duong-thumb-600x600.jpg" alt="iPhone 17 Pro Max 2TB">
+                        Titan Xanh Đậm
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://www.didongmy.com/vnt_upload/product/09_2025/thumbs/(600x600)_iphone_17_pro_max_orange_thumb_didongmy.jpg">
+                        Titan Cam Vũ Trụ
+                    </button>
+                </div>
+            </div>
+
+            @*Cụm nút hành động*@
+            <div class="action-buttons">
+                <button class="btn-installment">Trả góp 0%</button>
+                <button class="btn-buy">Mua ngay</button>
+                <button class="btn-cart">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+
+    @*Thông số kỹ thuật*@
+    <div class="specs">
+        <h3>Thông số kỹ thuật</h3>
+        <table>
+            <tr><td>Kích thước màn hình</td><td>6.9 inch Super Retina XDR OLED</td></tr>
+            <tr><td>Công nghệ màn hình</td><td>công nghệ ProMotion với tần số quét thích ứng tối đa 120Hz,Dynamic Island, màn hình luôn bật</td></tr>
+            <tr><td>Camera sau</td><td>48MP Fusion Main và 48MP Fusion Ultra Wide</td></tr>
+            <tr><td>Camera trước</td><td>18MP Center Stage</td></tr>
+            <tr><td>Chipset</td><td>Apple A19 Pro</td></tr>
+            <tr><td>Bộ nhớ trong</td><td>2TB</td></tr>
+            <tr><td>Hệ điều hành</td><td>IOS 18</td></tr>
+        </table>
+    </div>
+    <script src="~/Content/sanpham.js"></script>
+</main>
+
+

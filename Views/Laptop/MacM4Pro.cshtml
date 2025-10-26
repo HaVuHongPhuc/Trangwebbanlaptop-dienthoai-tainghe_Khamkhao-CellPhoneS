@@ -1,0 +1,93 @@
+﻿@{
+    ViewBag.Title = "MacBookPro14M4Pro";
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+}
+
+<head>
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+
+<main class="main">
+    <!-- Thông tin sản phẩm -->
+    <div class="product-detail">
+        <!-- Hình ảnh + mô tả nổi bật -->
+        <div class="product-left">
+            <img id="mainProductImage"
+                 src="~/Content/Images/macbook_4.png"
+                 alt="MacBook Pro 14 M4 Pro 12CPU 16GPU 24GB 512GB"
+                 class="product-image" />
+
+            <div class="highlight-box">
+                <h3>TÍNH NĂNG NỔI BẬT</h3>
+                <ul>
+                    <li>Ba cổng Thunderbolt 5, MagSafe 3 và khe thẻ nhớ SDXC hỗ trợ kết nối đa dạng.</li>
+                    <li>Màn hình ProMotion 120Hz hiển thị mượt mà, tối ưu cho công việc sáng tạo.</li>
+                    <li>Bảo mật mạnh mẽ với FileVault, hỗ trợ Find My Mac bảo vệ dữ liệu cá nhân.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Giá + tùy chọn -->
+        <div class="product-right">
+            <h2>MacBook Pro 14 M4 Pro 12CPU 16GPU 24GB 512GB | Chính hãng Apple VN</h2>
+            <p class="rating">⭐ 4.9 (343 đánh giá)</p>
+            <p class="price">47.590.000đ</p>
+
+            <!-- Chọn phiên bản -->
+            <div class="options">
+                <h4>Phiên bản</h4>
+                <div class="option-list">
+                    <button class="option selected">12CPU - 16GPU - 24GB - 512GB</button>
+                </div>
+            </div>
+
+            <!-- Chọn màu -->
+            <div class="options">
+                <h4>Màu sắc</h4>
+                <div class="option-list">
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/m/a/macbook_pro_14-inch_m4_chip_space_black_pdp_image_position_1__vn-vi.jpg">
+                        Đen
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/m/a/macbook_pro_14-inch_m4_chip_silver_pdp_image_position_1__vn-vi.jpg">
+                        Bạc
+                    </button>
+                </div>
+            </div>
+
+            <!-- Cụm nút hành động -->
+            <div class="action-buttons">
+                <button class="btn-installment">Trả góp 0%</button>
+                <button class="btn-buy">Mua ngay</button>
+                <button class="btn-cart">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thông số kỹ thuật -->
+    <div class="specs">
+        <h3>Thông số kỹ thuật</h3>
+        <table>
+            <tr><td>Loại Card đồ họa</td><td>GPU 16 lõi + Neural Engine 16 lõi</td></tr>
+            <tr><td>Dung lượng RAM</td><td>24GB</td></tr>
+            <tr><td>Ổ cứng</td><td>512GB SSD</td></tr>
+            <tr><td>Kích thước màn hình</td><td>14.2 inch</td></tr>
+            <tr>
+                <td>Công nghệ màn hình</td>
+                <td>
+                    Liquid Retina XDR<br />
+                    Độ sáng 1.000 nit toàn màn hình, 1.600 nit HDR<br />
+                    1 tỷ màu, Dải màu P3, True Tone<br />
+                    ProMotion 120Hz<br />
+                    Hỗ trợ tối đa 2 màn hình ngoài
+                </td>
+            </tr>
+            <tr><td>Pin</td><td>72.4 Wh</td></tr>
+            <tr><td>Hệ điều hành</td><td>macOS</td></tr>
+            <tr><td>Độ phân giải màn hình</td><td>3024 × 1964 pixels</td></tr>
+        </table>
+    </div>
+
+    <script src="~/Content/sanpham.js"></script>
+</main>

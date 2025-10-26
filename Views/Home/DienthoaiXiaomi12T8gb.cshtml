@@ -1,0 +1,112 @@
+﻿
+@{
+    ViewBag.Title = "DienthoaiXiaomi12t8gb";
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+}
+<head>
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+
+<main class="main">
+    @*Thông tin sản phẩm*@
+    <div class="product-detail">
+        @*Hình ảnh + mô tả nổi bật*@
+        <div class="product-left">
+            <img id="mainProductImage"
+                 src="https://cdn2.cellphones.com.vn/358x/media/catalog/product/x/i/xiaomi-12t-xam_1_1.jpg"
+                 alt="iPhone 14" class="product-image">
+
+            <div class="highlight-box">
+                <h3>TÍNH NĂNG NỔI BẬT</h3>
+                <ul>
+                    <li>    Kiến tạo khoảnh khắc hoàn hảo - Camera chuyên nghiệp 108MP + 8MP + 2MP, chống rung quang học OIS </li>
+                    <li>  Làm chủ tốc độ, bứt phá hiệu năng - MediaTek Dimensity 8100-Ultra, RAM 8GB</li>
+                    <li>   Năng lượng bất tận, khám phá cả ngày - Dung lượng pin 5000mAh, sạc siêu nhanh HyperCharge 120W</li>
+                    <li>    Trải nghiệm siêu chân thực - Màn hình lớn CrystalRes AMOLED cùng hệ thống âm thanh SOUND BY Harman Kardon</li>
+                </ul>
+            </div>
+        </div>
+
+        @*Giá + tùy chọn*@
+        <div class="product-right">
+            <h2>Xiaomi 12T 8GB 128GB | Chính hãng VN/A</h2>
+            <p class="rating">⭐ 4.9 (343 đánh giá)</p>
+            <p class="price">
+                5.490.000đ
+            </p>
+
+            @*Chọn phiên bản*@
+            <div class="options">
+                <h4>Phiên bản</h4>
+                <div class="option-list">
+                    <button class="option selected">128GB</button>
+                </div>
+            </div>
+
+            @*Chọn màu*@
+            <div class="options">
+                <h4>Màu sắc</h4>
+                <div class="option-list">
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/x/i/xiaomi-12t-xanh_3.jpg">
+                        Xanh Dương
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/x/i/xiaomi-12t-den_3_1.jpg">
+                        Đen
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/x/i/xiaomi-12t-xam_1_1.jpg">
+                        Bạc
+                    </button>
+                </div>
+            </div>
+
+            @*Cụm nút hành động*@
+            <div class="action-buttons">
+                <button class="btn-installment">Trả góp 0%</button>
+                <button class="btn-buy">Mua ngay</button>
+                <button class="btn-cart">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+
+    @*Thông số kỹ thuật*@
+    <div class="specs">
+        <h3>Thông số kỹ thuật</h3>
+        <table>
+            <tr><td>Kích thước màn hình</td><td>6.67 inches AMOLED</td></tr>
+            <tr>
+                <td>Công nghệ màn hình</td>
+                <td>
+                    Tần số quét 144 Hz, 446 ppi, 1200 nit, 68 tỷ màu
+                    Màn hình TrueColor
+                    Corning®️ Gorilla®️ Glass 5
+                </td>
+            </tr>
+            <tr>
+                <td>Camera sau</td>
+                <td>
+                    108MP + 8MP + 2MP
+                </td>
+            </tr>
+            <tr>
+                <td>Camera trước</td>
+                <td>
+                    20MPƒ/2,0
+                    Độ dài tiêu cự tương đương 25 mm
+                    FOV 80,8˚
+                    Chế độ ban đêm
+                    HDR
+                    Tính năng chụp ảnh bằng lòng bàn tay
+                </td>
+            </tr>
+            <tr><td>Chipset</td><td>MediaTek Dimensity 8100 Ultra 8 nhân</td></tr>
+            <tr><td>Bộ nhớ trong</td><td>128 GB</td></tr>
+            <tr><td>Hệ điều hành</td><td>Android 12, MIUI 13</td></tr>
+        </table>
+    </div>
+    <script src="~/Content/sanpham.js"></script>
+</main>
+
+

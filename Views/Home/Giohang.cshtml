@@ -1,0 +1,63 @@
+﻿@{
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+    ViewBag.Title = "Giỏ hàng";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+<body>
+    <main class="cart-page">
+        <div class="cart-container">
+            <!-- Phần sản phẩm giỏ hàng -->
+            <div class="cart-items">
+                <h2>Giỏ hàng</h2>
+                <div class="cart-item">
+                    <div class="cart-info">
+                        <p class="cart-title">___</p>
+                        <p class="cart-price">___</p>
+                        <div class="cart-qty">
+                            <button>-</button>
+                            <input type="text" value="1" />
+                            <button>+</button>
+                        </div>
+                    </div>
+                    <button class="remove-btn">✖</button>
+                </div>
+                <textarea class="cart-note" placeholder="Ghi chú đơn hàng"></textarea>
+            </div>
+
+            <div class="cart-summary">
+                <h3>HẸN GIỜ NHẬN HÀNG</h3>
+                <div class="delivery-time">
+                    <label>Ngày nhận hàng</label>
+                    <input type="date" value="2025-12-12" />
+                    <label>Thời gian</label>
+                    <select>
+                        <option>Chọn thời gian</option>
+                        <option>Sáng (8h - 12h)</option>
+                        <option>Chiều (13h - 17h)</option>
+                        <option>Tối (18h - 21h)</option>
+                    </select>
+                </div>
+                <label><input type="checkbox" /> Xuất hóa đơn công ty</label>
+
+                <div class="total">
+                    <p>TỔNG CỘNG: <span>_____</span></p>
+                </div>
+                <a style="text-decoration:none;" href="~/Home/thongtingiaohang" class="checkout-btn">Đi tới thông tin giao hàng</a>
+                <p class="pay-method">Phương thức thanh toán</p>
+                <div class="pay-icons">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" />
+                    <img src="https://upload.wikimedia.org/wikipedia/vi/f/fe/MoMo_Logo.png" />
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

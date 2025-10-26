@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "AsusTUFGamingF16";
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+}
+
+<head>
+    <!-- Kế thừa CSS mặc định -->
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+
+<main class="main">
+    <!-- Chi tiết sản phẩm -->
+    <div class="product-detail">
+        <!-- Cột trái -->
+        <div class="product-left">
+            <img id="mainProductImage"
+                 src="~/Content/Images/Asus2.png"
+                 alt="Laptop ASUS TUF Gaming F16"
+                 class="product-image" />
+
+            <div class="highlight-box">
+                <h3>TÍNH NĂNG NỔI BẬT</h3>
+                <ul>
+                    <li>Trang bị vi xử lý Intel Core 5-210H, xử lý mượt mà cho mọi trò chơi và ứng dụng nặng.</li>
+                    <li>RAM 16GB + SSD 512GB PCIe, đa nhiệm mạnh mẽ, lưu trữ rộng rãi.</li>
+                    <li>Card đồ họa RTX 3050 6GB hỗ trợ tốt cho tác vụ đồ họa và game độ phân giải cao.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Cột phải -->
+        <div class="product-right">
+            <h2>Laptop ASUS TUF Gaming F16 FX607VJ-RL034W</h2>
+            <p class="rating">⭐ 4.9 (343 đánh giá)</p>
+            <p class="price">21.490.000₫</p>
+
+            <!-- Phiên bản -->
+            <div class="options">
+                <h4>Phiên bản</h4>
+                <div class="option-list">
+                    <button class="option selected">RTX 3050 6GB - Core i5-210H - 16GB RAM - 512GB SSD</button>
+                </div>
+            </div>
+
+            <!-- Màu sắc -->
+            <div class="options">
+                <h4>Màu sắc</h4>
+                <div class="option-list">
+                    <button class="option color-option"
+                            data-img="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ5suqnQLiuR_UVmgWNSRz2CD1YONO867_Hf7nC8MeOVCIj5Ziqh5JqZqBuTTzcG2XHxKkfDg0DBmrDZibJ6Fb_mU5Pvm9I2eTe645bSKEbWgAjE7zl44gw">
+                        Xám
+                    </button>
+                </div>
+            </div>
+
+            <!-- Nút hành động -->
+            <div class="action-buttons">
+                <button class="btn-installment">Trả góp 0%</button>
+                <button class="btn-buy">Mua ngay</button>
+                <button class="btn-cart">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thông số kỹ thuật -->
+    <div class="specs">
+        <h3>Thông số kỹ thuật</h3>
+        <table>
+            <tr>
+                <td>Loại Card đồ họa</td>
+                <td>NVIDIA GeForce RTX 3050 6GB GDDR6 • Intel Iris Xe Graphics</td>
+            </tr>
+            <tr><td>Dung lượng RAM</td><td>16GB</td></tr>
+            <tr><td>Ổ cứng</td><td>512GB PCIe 4.0 NVMe M.2 SSD (2 khe, hỗ trợ tối đa 2TB)</td></tr>
+            <tr><td>Kích thước màn hình</td><td>16 inches</td></tr>
+            <tr>
+                <td>Công nghệ màn hình</td>
+                <td>
+                    Độ sáng 300 nits • NTSC 45%<br />
+                    Màn hình chống chói
+                </td>
+            </tr>
+            <tr><td>Pin</td><td>56 Wh, 4-cell Li-ion</td></tr>
+            <tr><td>Hệ điều hành</td><td>Windows 11 Home</td></tr>
+            <tr><td>Độ phân giải màn hình</td><td>1920 x 1200 pixels (WUXGA)</td></tr>
+        </table>
+    </div>
+
+    <!-- Script JS -->
+    <script src="~/Content/sanpham.js"></script>
+</main>

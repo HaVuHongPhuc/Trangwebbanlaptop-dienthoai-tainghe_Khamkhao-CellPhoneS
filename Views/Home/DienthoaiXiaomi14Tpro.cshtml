@@ -1,0 +1,113 @@
+﻿
+@{
+    ViewBag.Title = "DienthoaiXiaomi14Tpro";
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+}
+<head>
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+
+<main class="main">
+    @*Thông tin sản phẩm*@
+    <div class="product-detail">
+        @*Hình ảnh + mô tả nổi bật*@
+        <div class="product-left">
+            <img id="mainProductImage"
+                 src="https://cdn2.cellphones.com.vn/358x/media/catalog/product/2/3/234_10_.png"
+                 alt="iPhone 14" class="product-image">
+
+            <div class="highlight-box">
+                <h3>TÍNH NĂNG NỔI BẬT</h3>
+                <ul>
+                    <li>  Hiệu năng Xiaomi 14T Pro 5G mạnh mẽ với chip MediaTek Dimensity 9300+ - Hiệu suất tối ưu cho các tác vụ nặng như chơi game, xử lý đồ họa và đa nhiệm mượt mà. </li>
+                    <li>  Màn hình AMOLED 6.67 inch 144Hz siêu mượt - Trải nghiệm hình ảnh sắc nét, mọi thao tác trở nên mượt mà hơn, từ lướt web đến chơi game.</li>
+                    <li>  Quay video 8K HDR mang lại những thước phim chất lượng cao với Dolby Vision HDR và 4K HDR10+</li>
+                    <li>  Pin 5.000mAh và sạc nhanh 120W - Điện thoại Xiaomi 14T Pro 5G giúp bạn sạc đầy chỉ trong vòng chưa đến 20 phút, đảm bảo thời lượng sử dụng lâu dài suốt cả ngày.</li>
+                </ul>
+            </div>
+        </div>
+
+        @*Giá + tùy chọn*@
+        <div class="product-right">
+            <h2>Xiaomi 14T Pro 12GB 512GB | Chính hãng VN/A</h2>
+            <p class="rating">⭐ 4.9 (343 đánh giá)</p>
+            <p class="price">14.870.000đ</p>
+
+            @*Chọn phiên bản*@
+            <div class="options">
+                <h4>Phiên bản</h4>
+                <div class="option-list">
+                    <button class="option selected">512GB</button>
+                </div>
+            </div>
+
+            @*Chọn màu*@
+            <div class="options">
+                <h4>Màu sắc</h4>
+                <div class="option-list">
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/2/3/234_10_.png">
+                        Xanh
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/2/3/234_11_.png">
+                        Xám
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/2/3/234_12_.png">
+                        Đen
+                    </button>
+                </div>
+            </div>
+
+            @*Cụm nút hành động*@
+            <div class="action-buttons">
+                <button class="btn-installment">Trả góp 0%</button>
+                <button class="btn-buy">Mua ngay</button>
+                <button class="btn-cart">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+
+    @*Thông số kỹ thuật*@
+    <div class="specs">
+        <h3>Thông số kỹ thuật</h3>
+        <table>
+            <tr><td>Kích thước màn hình</td><td>6.67 inches AMOLED</td></tr>
+            <tr>
+                <td>Công nghệ màn hình</td>
+                <td>
+                    68 tỷ màu
+                    Tần số quét 1-120Hz
+                    Tốc độ phản hồi cảm ứng 300Hz
+                    Độ sáng tối đa 3200 nits trong nhiều tình huống
+                    Điều chỉnh độ sáng PWM 1920Hz/DC dimming
+                    Original color PRO | Pro HDR | Công nghệ cảm ứng khi ướt
+                    HDR10+, Dolby Vision
+                </td>
+            </tr>
+            <tr>
+                <td>Camera sau</td>
+                <td>
+                    Máy ảnh chính: 50MP, 23mm, ƒ/1 6
+                    Máy ảnh góc siêu rộng: 12MP, 15mm, ƒ/2 2
+                    Máy ảnh tele: 50MP, 60mm, ƒ/2 0
+                </td>
+            </tr>
+            <tr><td>Camera trước</td><td>
+                32MPƒ/2,0
+                Độ dài tiêu cự tương đương 25 mm
+                FOV 80,8˚
+                Chế độ ban đêm
+                HDR
+                Tính năng chụp ảnh bằng lòng bàn tay
+            </td></tr>
+            <tr><td>Chipset</td><td>MediaTek Dimensity 9300+</td></tr>
+            <tr><td>Bộ nhớ trong</td><td>512 GB</td></tr>
+            <tr><td>Hệ điều hành</td><td>Android 16</td></tr>
+        </table>
+    </div>
+    <script src="~/Content/sanpham.js"></script>
+</main>
+
+

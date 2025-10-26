@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "DienthoaiXiaomi";
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+}
+
+<head>
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+<main class="main">
+    <h1 class="section-title">Điện Thoại Xiaomi 12 Series</h1>
+
+    @*Thanh chọn model*@
+    <section class="brands-section">
+        <div class="iphoneseries">
+            <a href="~/Home/DienthoaiXiaomi15" style="color:black; text-decoration:none;" class="phone-pill">
+                <h3>Xiaomi 15 Series </h3>
+            </a>
+            <a href="~/Home/DienthoaiXiaomi14" style="color:black; text-decoration:none;" class="phone-pill">
+                <h3>Xiaomi 14 Series </h3>
+            </a>
+            <a href="~/Home/DienthoaiXiaomi13" style="color:black; text-decoration:none;" class="phone-pill">
+                <h3>Xiaomi 13 Series </h3>
+            </a>
+            <a href="~/Home/DienthoaiXiaomi12" style="color:black; text-decoration:none;" class="phone-pill">
+                <h3>Xiaomi 12 Series</h3>
+            </a>
+        </div>
+    </section>
+    <div class="products">
+        @*SP 1*@
+        <div class="product-card">
+            <img src="https://cdn2.cellphones.com.vn/358x/media/catalog/product/x/i/xiaomi-12t-xam_1_1.jpg" alt="Bạc" />
+            <h3>Xiaomi 12T 8GB 128GB | Chính hãng</h3>
+            <p class="price">5.490.000đ</p>
+            <a href="~/Home/DienthoaiXiaomi12T8gb" style="text-decoration:none;" class="buy-btn">Mua ngay</a>
+        </div>
+
+        @*SP 2*@
+    <div class="product-card">
+        <img src="https://cdn2.cellphones.com.vn/358x/media/catalog/product/x/i/xiaomi-12t-den_4.jpg" alt="Xám" />
+        <h3>Xiaomi 12T Pro | Chính hãng</h3>
+        <p class="price">14.690.000đ </p>
+        <a href="~/Home/DienthoaiXiaomi12Tpro" style="text-decoration:none;" class="buy-btn">Mua ngay</a>
+    </div>
+    </div>
+</main>

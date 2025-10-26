@@ -1,0 +1,84 @@
+﻿
+@{
+    ViewBag.Title = "DienthoaiSamSungGalaxyZflip6256gb";
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+}
+<head>
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+
+<main class="main">
+    @*Thông tin sản phẩm*@
+    <div class="product-detail">
+        @*Hình ảnh + mô tả nổi bật*@
+        <div class="product-left">
+            <img id="mainProductImage"
+                 src="https://cdn2.cellphones.com.vn/358x/media/catalog/product/f/l/flip-vang.jpg"
+                 alt="iPhone 14" class="product-image">
+
+            <div class="highlight-box">
+                <h3>TÍNH NĂNG NỔI BẬT</h3>
+                <ul>
+                    <li>  Chip Snapdragon 8 Gen 3 8 nhân mang đến hiệu năng mạnh mẽ, cho phép bạn xử lý các tác vụ hàng ngày một cách mượt mà.</li>
+                    <li>  Màn hình gập 6.7 inch Dynamic AMOLED 2X 120Hz mang đến trải nghiệm hình ảnh tuyệt vời, với độ phân giải cao.</li>
+                    <li>  Camera sau 50MP + 12MP cho phép bạn chụp ảnh chất lượng cao, với độ chi tiết cao và màu sắc rực rỡ. </li>
+                    <li>  Pin dung lượng 4000 mAh cho phép bạn sử dụng điện thoại cả ngày dài mà không cần lo lắng về việc hết pin. </li>
+                </ul>
+            </div>
+        </div>
+
+        @*Giá + tùy chọn*@
+        <div class="product-right">
+            <h2>Samsung Galaxy Z Flip6 256GB | Chính hãng VN/A</h2>
+            <p class="rating">⭐ 4.9 (343 đánh giá)</p>
+            <p class="price">21.590.000đ</p>
+
+            @*Chọn phiên bản*@
+            <div class="options">
+                <h4>Phiên bản</h4>
+                <div class="option-list">
+                    <button class="option selected">256GB</button>
+                </div>
+            </div>
+
+            @*Chọn màu*@
+            <div class="options">
+                <h4>Màu sắc</h4>
+                <div class="option-list">
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/f/l/flip-vang.jpg">
+                        Vàng
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/f/l/flip-den.jpg">
+                        Xám
+                    </button>
+                </div>
+            </div>
+
+            @*Cụm nút hành động*@
+            <div class="action-buttons">
+                <button class="btn-installment">Trả góp 0%</button>
+                <button class="btn-buy">Mua ngay</button>
+                <button class="btn-cart">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+
+    @*Thông số kỹ thuật*@
+    <div class="specs">
+        <h3>Thông số kỹ thuật</h3>
+        <table>
+            <tr><td>Kích thước màn hình</td><td>6.7 inches Dynamic Amoled 2X</td></tr>
+            <tr><td>Công nghệ màn hình</td><td>độ sâu màu sắc: 16M, 1600nits Màn hình phụ: 3.4", 720 x 748, Super AMOLED, độ sâu màu sắc: 16M, 1600nits Kính Corning® Gorilla® Glass Victus® 2</td></tr>
+            <tr><td>Camera sau</td><td> Camera góc chụp rộng: 50.0 MP, f/1.8, thu phóng quang học 2x Góc chụp siêu rộng: 12.0 MP, f/2.2</td></tr>
+            <tr><td>Camera trước</td><td>10.0 MP, f/2.2</td></tr>
+            <tr><td>Chipset</td><td>Snapdragon 8 Gen 3 for Galaxy Tăng lên 42% AI</td></tr>
+            <tr><td>Bộ nhớ trong</td><td>256 GB</td></tr>
+            <tr><td>Hệ điều hành</td><td>Android 16</td></tr>
+        </table>
+    </div>
+    <script src="~/Content/sanpham.js"></script>
+</main>
+
+

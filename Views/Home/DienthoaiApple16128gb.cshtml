@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewBag.Title = "DienthoaiApple16128gb";
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+}
+<head>
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+
+<main class="main">
+    @*Thông tin sản phẩm*@
+    <div class="product-detail">
+        @*Hình ảnh + mô tả nổi bật*@
+        <div class="product-left">
+            <img id="mainProductImage"
+                 src="https://cdn2.cellphones.com.vn/358x/media/catalog/product/i/p/iphone-16-den_2.png"
+                 alt="iPhone 16" class="product-image">
+
+            <div class="highlight-box">
+                <h3>TÍNH NĂNG NỔI BẬT</h3>
+                <ul>
+                    <li>Thiết kế titan nhẹ và bền bỉ, màn hình Super Retina XDR 6,9 inch sắc nét.</li>
+                    <li>Chip A18 Pro mang lại hiệu suất vượt trội cho cả công việc và chơi game, hỗ trợ các tính năng chụp ảnh và quay video tiên tiến.</li>
+                    <li>Tính năng Phát Hiện Va Chạm giúp bảo vệ an toàn trong tình huống khẩn cấp, đảm bảo bạn luôn được hỗ trợ khi cần.</li>
+                </ul>
+            </div>
+        </div>
+
+        @*Giá + tùy chọn*@
+        <div class="product-right">
+            <h2>Iphone 16 128GB | Chính hãng VN/A</h2>
+            <p class="rating">⭐ 4.9 (343 đánh giá)</p>
+            <p class="price">20.890.000đ</p>
+
+            @*Chọn phiên bản*@
+            <div class="options">
+                <h4>Phiên bản</h4>
+                <div class="option-list">
+                    <button class="option selected">128GB</button>
+                </div>
+            </div>
+
+            @*Chọn màu*@
+            <div class="options">
+                <h4>Màu sắc</h4>
+                <div class="option-list">
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/i/p/iphone-16-den_2.png">
+                        Titan Đen
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/i/p/iphone-16-xanh-luu-ly_2.png">
+                        Titan Xanh Lưu Ly
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/i/p/iphone-16-hong_2.png">
+                        Titan Hồng
+                    </button>
+                </div>
+            </div>
+
+            @*Cụm nút hành động*@
+            <div class="action-buttons">
+                <button class="btn-installment">Trả góp 0%</button>
+                <button class="btn-buy">Mua ngay</button>
+                <button class="btn-cart">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+
+    @*Thông số kỹ thuật*@
+    <div class="specs">
+        <h3>Thông số kỹ thuật</h3>
+        <table>
+            <tr><td>Kích thước màn hình</td><td>6.9 inches Super Retina XDR OLED</td></tr>
+            <tr><td>Công nghệ màn hình</td><td>công nghệ ProMotion với tần số quét thích ứng tối đa 120Hz,Dynamic Island, màn hình luôn bật</td></tr>
+            <tr><td>Camera sau</td><td>48MP, f/1.78, 24mm, 2µm, chống rung quang học dịch chuyển cảm biến thế hệ thứ hai, Focus Pixels 100%</td></tr>
+            <tr><td>Camera trước</td><td>12MP, ƒ/1.9, Tự động lấy nét theo pha Focus Pixels</td></tr>
+            <tr><td>Chipset</td><td>Apple A18</td></tr>
+            <tr><td>Bộ nhớ trong</td><td>128 GB</td></tr>
+            <tr><td>Hệ điều hành</td><td>IOS 18</td></tr>
+        </table>
+    </div>
+    <script src="~/Content/sanpham.js"></script>
+</main>
+
+
