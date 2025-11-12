@@ -1,0 +1,108 @@
+﻿@{
+    ViewBag.Title = "AirPods4";
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+}
+
+<head>
+    <!-- Kế thừa CSS mặc định -->
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+
+<main class="main">
+    <!-- Chi tiết sản phẩm -->
+    <div class="product-detail">
+        <!-- Cột trái -->
+        <div class="product-left">
+            <img id="mainProductImage"
+                 src="~/Content/AmThanh/ap1.png"
+                 alt="Tai nghe AirPods 4"
+                 class="product-image" />
+
+            <div class="highlight-box">
+                <h3>TÍNH NĂNG NỔI BẬT</h3>
+                <ul>
+                    <li>AirPods 4 được thiết kế mới với sự thoải mái vượt trội, thân ngắn hơn và nút điều khiển tiện lợi.</li>
+                    <li>Âm Thanh Không Gian Cá Nhân Hóa với theo dõi chuyển động đầu cho trải nghiệm sống động.</li>
+                    <li>Chip H2 cải tiến chất lượng âm thanh, lọc ồn và nâng cao trải nghiệm cuộc gọi.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Cột phải -->
+        <div class="product-right">
+            <h2>Tai nghe Bluetooth Apple AirPods 4 | Chính hãng Apple Việt Nam</h2>
+            <p class="rating">⭐ 4.9 (343 đánh giá)</p>
+            <p class="price">3.590.000₫</p>
+
+            <!-- Phiên bản -->
+            <div class="options">
+                <h4>Phiên bản</h4>
+                <div class="option-list">
+                    <button class="option selected">AirPods 4</button>
+                </div>
+            </div>
+
+            <!-- Màu sắc -->
+            <div class="options">
+                <h4>Màu sắc</h4>
+                <div class="option-list">
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/i/airpods-4-2.png">
+                        Trắng
+                    </button>
+                </div>
+            </div>
+
+            <!-- Nút hành động -->
+            <div class="action-buttons">
+                <button class="btn-installment">Trả góp 0%</button>
+                <button class="btn-buy">Mua ngay</button>
+                <button class="btn-cart">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thông số kỹ thuật -->
+    <div class="specs">
+        <h3>Thông số kỹ thuật</h3>
+        <table>
+            <tr>
+                <td>Kích thước</td>
+                <td>
+                    Tai nghe: 30.2 x 18.3 x 18.1 mm <br />
+                    Hộp sạc: 46.2 x 50.1 x 21.2 mm
+                </td>
+            </tr>
+            <tr>
+                <td>Trọng lượng</td>
+                <td>
+                    Tai nghe: 4.3g <br />
+                    Hộp sạc: 32.3g
+                </td>
+            </tr>
+            <tr>
+                <td>Công nghệ âm thanh</td>
+                <td>
+                    Trình điều khiển Apple với độ lệch tương phản cao <br />
+                    Bộ khuếch đại với độ lệch tương phản cao <br />
+                    Tách Lời Nói • Âm Thanh Không Gian Cá Nhân Hóa <br />
+                    Theo dõi chuyển động đầu chủ động • EQ Thích Ứng
+                </td>
+            </tr>
+            <tr><td>Micro</td><td>Có</td></tr>
+            <tr>
+                <td>Thời lượng Pin</td>
+                <td>
+                    Nghe nhạc: 5 giờ <br />
+                    Đàm thoại: 4.5 giờ
+                </td>
+            </tr>
+            <tr><td>Phương thức điều khiển</td><td>Cảm biến lực</td></tr>
+            <tr><td>Chipset</td><td>Apple H2</td></tr>
+            <tr><td>Hãng sản xuất</td><td>Apple Chính hãng</td></tr>
+        </table>
+    </div>
+
+    <!-- Script JS -->
+    <script src="~/Content/sanpham.js"></script>
+</main>

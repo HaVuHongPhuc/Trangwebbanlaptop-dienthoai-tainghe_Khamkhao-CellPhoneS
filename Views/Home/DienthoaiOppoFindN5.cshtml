@@ -1,0 +1,84 @@
+﻿
+@{
+    ViewBag.Title = "DienthoaiOppoFindN5";
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+}
+<head>
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+
+<main class="main">
+    @*Thông tin sản phẩm*@
+    <div class="product-detail">
+        @*Hình ảnh + mô tả nổi bật*@
+        <div class="product-left">
+            <img id="mainProductImage"
+                 src="https://cdn2.cellphones.com.vn/358x/media/catalog/product/p/h/photo_2025-03-21_10-27-52_1.jpg"
+                 alt="iPhone 14" class="product-image">
+
+            <div class="highlight-box">
+                <h3>TÍNH NĂNG NỔI BẬT</h3>
+                <ul>
+                    <li>  Chip Snapdragon 8 Elite, RAM 16GB, bộ nhớ trong 512GB, xử lý mượt mà mọi tác vụ</li>
+                    <li>  Màn hình AMOLED 8.12" (trong) & 6.62" (ngoài), tần số quét 120Hz, hiển thị sắc nét</li>
+                    <li>  Camera chính & tele 50MP, góc rộng 8MP, chụp ảnh sắc nét, zoom quang học ấn tượng</li>
+                    <li>  Dung lượng 5,600mAh, sạc nhanh 80W, sử dụng cả ngày dài</li>
+                </ul>
+            </div>
+        </div>
+
+        @*Giá + tùy chọn*@
+        <div class="product-right">
+            <h2>OPPO FIND N5 | Chính hãng VN/A</h2>
+            <p class="rating">⭐ 4.9 (343 đánh giá)</p>
+            <p class="price">44.180.000đ</p>
+
+            @*Chọn phiên bản*@
+            <div class="options">
+                <h4>Phiên bản</h4>
+                <div class="option-list">
+                    <button class="option selected">512GB</button>
+                </div>
+            </div>
+
+            @*Chọn màu*@
+            <div class="options">
+                <h4>Màu sắc</h4>
+                <div class="option-list">
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/p/h/photo_2025-03-21_10-27-52_1.jpg">
+                        Trắng
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/p/h/photo_2025-03-21_10-27-36.jpg">
+                        Đen
+                    </button>
+                </div>
+            </div>
+
+            @*Cụm nút hành động*@
+            <div class="action-buttons">
+                <button class="btn-installment">Trả góp 0%</button>
+                <button class="btn-buy">Mua ngay</button>
+                <button class="btn-cart">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+
+    @*Thông số kỹ thuật*@
+    <div class="specs">
+        <h3>Thông số kỹ thuật</h3>
+        <table>
+            <tr><td>Kích thước màn hình</td><td>8.12 inches Amoled</td></tr>
+            <tr><td>Công nghệ màn hình</td><td>Tần số: 120Hz Màn hình chính: Kính Pet+UTG, 1400nit Màn hình ngoài: 6.62 inch, 1140 x 2616 (FHD+), kính siêu mỏng Nanocrytal, 1600nit 1 tỷ màu sắc</td></tr>
+            <tr><td>Camera sau</td><td> 50MP, ƒ/1.8 OIS (Chính) + 8MP, ƒ/2.2 (Góc rộng) + 50MP, ƒ/2.7 (Tele)</td></tr>
+            <tr><td>Camera trước</td><td> Màn hình chính: 20MP, f/2.2 Màn hình ngoài: 32MP, f/2.4</td></tr>
+            <tr><td>Chipset</td><td>Qualcomm Snapdragon® 8 Elite</td></tr>
+            <tr><td>Bộ nhớ trong</td><td>512 GB</td></tr>
+            <tr><td>Hệ điều hành</td><td>Android 16</td></tr>
+        </table>
+    </div>
+    <script src="~/Content/sanpham.js"></script>
+</main>
+
+

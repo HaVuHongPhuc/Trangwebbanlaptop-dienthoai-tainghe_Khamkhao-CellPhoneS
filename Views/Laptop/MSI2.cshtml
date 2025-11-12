@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "MSI_Katana_15_B13UDXK_2270VN";
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+}
+
+<head>
+    <!-- CSS sản phẩm -->
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+
+<main class="main">
+    <!-- Chi tiết sản phẩm -->
+    <div class="product-detail">
+        <!-- Bên trái: Ảnh + mô tả nổi bật -->
+        <div class="product-left">
+            <img id="mainProductImage"
+                 src="~/Content/Images/msi2.png"
+                 alt="Laptop MSI Katana 15"
+                 class="product-image" />
+
+            <div class="highlight-box">
+                <h3>TÍNH NĂNG NỔI BẬT</h3>
+                <ul>
+                    <li>Trang bị chip Intel Core i5-13500H, hiệu suất cao cho công việc và giải trí.</li>
+                    <li>RAM 16GB, hỗ trợ đa nhiệm mượt mà, xử lý tốt các tác vụ nặng.</li>
+                    <li>Ổ cứng SSD 1TB PCIe, lưu trữ thoải mái dữ liệu, hình ảnh, video.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Bên phải: Tên, giá, tùy chọn -->
+        <div class="product-right">
+            <h2>Laptop MSI Katana 15 B13UDXK-2270VN V2</h2>
+            <p class="rating">⭐ 4.9 (343 đánh giá)</p>
+            <p class="price">19.990.000₫</p>
+
+            <!-- Phiên bản -->
+            <div class="options">
+                <h4>Phiên bản</h4>
+                <div class="option-list">
+                    <button class="option selected">i5-13500H • 16GB • 1TB SSD</button>
+                </div>
+            </div>
+
+            <!-- Màu sắc -->
+            <div class="options">
+                <h4>Màu sắc</h4>
+                <div class="option-list">
+                    <button class="option color-option"
+                            data-img="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTCGLeFIm_xZ-3S3TNh4tUo8c9z4MwFeOeLCYStJQf__h7YTHReSW5leF0IURZZQhVRywwa0bQjly5pz_xtv16KWKk-CB5LilZCQZayP6VXdy_BLn6zZo8qN0CXuVi-VRoJjWfYRQ&usqp=CAc">
+                        Đen
+                    </button>
+                </div>
+            </div>
+
+            <!-- Các nút hành động -->
+            <div class="action-buttons">
+                <button class="btn-installment">Trả góp 0%</button>
+                <button class="btn-buy">Mua ngay</button>
+                <button class="btn-cart">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thông số kỹ thuật -->
+    <div class="specs">
+        <h3>Thông số kỹ thuật</h3>
+        <table>
+            <tr><td>Loại Card đồ họa</td><td>NVIDIA GeForce RTX 3050 6GB • Intel Iris Xe Graphics</td></tr>
+            <tr><td>Dung lượng RAM</td><td>16GB</td></tr>
+            <tr><td>Ổ cứng</td><td>1TB SSD</td></tr>
+            <tr><td>Kích thước màn hình</td><td>15.6 inches</td></tr>
+            <tr><td>Công nghệ màn hình</td><td>Chống chói</td></tr>
+            <tr><td>Pin</td><td>3-Cell</td></tr>
+            <tr><td>Hệ điều hành</td><td>Windows 11 Home</td></tr>
+            <tr><td>Độ phân giải màn hình</td><td>1920 × 1080 pixels (FullHD)</td></tr>
+        </table>
+    </div>
+
+    <!-- Script JS -->
+    <script src="~/Content/sanpham.js"></script>
+</main>

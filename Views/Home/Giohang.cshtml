@@ -1,0 +1,115 @@
+﻿@{
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+    ViewBag.Title = "Giỏ hàng";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+<body>
+    <main class="cart-page">
+        <div class="cart-container">
+            <!-- Phần sản phẩm giỏ hàng -->
+            <div class="cart-items">
+                <h2>Giỏ hàng</h2>
+                <div class="product-card">
+                    <img src="https://cdn1.viettelstore.vn/Images/Product/ProductImage/1644285630.jpeg" alt="iPhone 17 Pro Max 256GB" />
+                    <h3>Iphone 17 PRO MAX 256GB | Chính hãng</h3>
+                </div>
+                <div class="cart-item">
+                    <div class="cart-info">
+                        <p class="cart-price">33.990.000đ</p>
+                        <div class="cart-qty">
+                            <button>-</button>
+                            <input type="text" value="1" />
+                            <button>+</button>
+                        </div>
+                    </div>
+                    <button class="remove-btn">✖</button>
+                </div>
+                <textarea class="cart-note" placeholder="Ghi chú đơn hàng"></textarea>
+            </div>
+
+            <div class="cart-summary">
+                <h3>HẸN GIỜ NHẬN HÀNG</h3>
+                <div class="delivery-time">
+                    <label>Ngày nhận hàng</label>
+                    <input type="date" value="2025-12-12" />
+                    <label>Thời gian</label>
+                    <select>
+                        <option>Chọn thời gian</option>
+                        <option>Sáng (8h - 12h)</option>
+                        <option>Chiều (13h - 17h)</option>
+                        <option>Tối (18h - 21h)</option>
+                    </select>
+                </div>
+                <label><input type="checkbox" /> Xuất hóa đơn công ty</label>
+
+                <div class="total">
+                    <p>TỔNG CỘNG: <span>_____</span></p>
+                </div>
+                <a style="text-decoration:none;" href="~/Home/thongtingiaohang" class="checkout-btn">Đi tới thông tin giao hàng</a>
+                <p class="pay-method">Phương thức thanh toán</p>
+                <div class="pay-icons">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" />
+                    <img src="https://upload.wikimedia.org/wikipedia/vi/f/fe/MoMo_Logo.png" />
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+
+            function updateCartTotal() {
+                let total = 0;
+                document.querySelectorAll(".cart-item").forEach(function (item) {
+                    let priceText = item.querySelector(".cart-price").innerText;
+
+ 
+                    let quantity = parseInt(item.querySelector(".cart-qty input").value) || 1;
+
+                    let priceNumber = parseFloat(priceText.replace(/\./g, '').replace('đ', ''));
+
+                    if (!isNaN(priceNumber)) { 
+                        total += priceNumber * quantity;
+                    }
+                });
+                let totalElement = document.querySelector(".total p span");
+
+                totalElement.innerText = total.toLocaleString('vi-VN') + 'đ';
+            }
+
+            document.querySelectorAll(".cart-item").forEach(function (item) {
+                let minusBtn = item.querySelector(".cart-qty button:first-child");
+                let plusBtn = item.querySelector(".cart-qty button:last-child");
+                let qtyInput = item.querySelector(".cart-qty input");
+
+                minusBtn.addEventListener("click", function () {
+                    let currentValue = parseInt(qtyInput.value) || 1;
+                    if (currentValue > 1) {
+                        qtyInput.value = currentValue - 1;
+                        updateCartTotal(); 
+                    }
+                });
+
+                plusBtn.addEventListener("click", function () {
+                    let currentValue = parseInt(qtyInput.value) || 1;
+                    qtyInput.value = currentValue + 1;
+                    updateCartTotal();
+                });
+            });
+
+            updateCartTotal();
+        });
+    </script>
+
+
+</body>
+</html>

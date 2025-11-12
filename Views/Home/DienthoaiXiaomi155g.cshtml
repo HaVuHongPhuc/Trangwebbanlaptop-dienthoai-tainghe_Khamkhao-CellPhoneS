@@ -1,0 +1,103 @@
+﻿
+@{
+    ViewBag.Title = "DienthoaiXiaomi155g";
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+}
+<head>
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+
+<main class="main">
+    @*Thông tin sản phẩm*@
+    <div class="product-detail">
+        @*Hình ảnh + mô tả nổi bật*@
+        <div class="product-left">
+            <img id="mainProductImage"
+                 src="https://cdn2.cellphones.com.vn/358x/media/catalog/product/i/m/image_1262703564.jpg"
+                 alt="iPhone 14" class="product-image">
+
+            <div class="highlight-box">
+                <h3>TÍNH NĂNG NỔI BẬT</h3>
+                <ul>
+                    <li>  Xiaomi 15 với Chipset Snapdragon 8 Elite cung cấp hiệu suất xử lý mạnh mẽ và đồ họa đỉnh cao, giúp nâng cao trải nghiệm chơi game, xem video </li>
+                    <li>  Camera sau ba ống kính 50MP đáp ứng xuất sắc mọi nhu cầu chụp ảnh từ phong cảnh đến chân dung, với chế độ chụp đêm nâng cấp</li>
+                    <li>  Quay video 8K HDR mang lại những thước phim chất lượng cao với Dolby Vision HDR và 4K HDR10+</li>
+                    <li>  Màn hình CrystalRes AMOLED 6.36 inch hiển thị 68 tỷ màu, tần số quét 120Hz, mang đến trải nghiệm hình ảnh sống động và mượt mà</li>
+                </ul>
+            </div>
+        </div>
+
+        @*Giá + tùy chọn*@
+        <div class="product-right">
+            <h2>Xiaomi 15 5G 12GB 512GB | Chính hãng VN/A</h2>
+            <p class="rating">⭐ 4.9 (343 đánh giá)</p>
+            <p class="price">20.990.000đ</p>
+
+            @*Chọn phiên bản*@
+            <div class="options">
+                <h4>Phiên bản</h4>
+                <div class="option-list">
+                    <button class="option selected">512GB</button>
+                </div>
+            </div>
+
+            @*Chọn màu*@
+            <div class="options">
+                <h4>Màu sắc</h4>
+                <div class="option-list">
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/i/m/image_1262703564.jpg">
+                        Trắng
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/i/m/image_1262703565.jpg">
+                        Xanh Lá
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/i/m/image_1262703566.jpg">
+                        Đen
+                    </button>
+                </div>
+            </div>
+
+            @*Cụm nút hành động*@
+            <div class="action-buttons">
+                <button class="btn-installment">Trả góp 0%</button>
+                <button class="btn-buy">Mua ngay</button>
+                <button class="btn-cart">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+
+    @*Thông số kỹ thuật*@
+    <div class="specs">
+        <h3>Thông số kỹ thuật</h3>
+        <table>
+            <tr><td>Kích thước màn hình</td><td>6.36 CrystalRes AMOLED</td></tr>
+            <tr>
+                <td>Công nghệ màn hình</td>
+                <td>
+                    68 tỷ màu
+                    Tần số quét 1-120Hz
+                    Tốc độ phản hồi cảm ứng 300Hz
+                    Độ sáng tối đa 3200 nits trong nhiều tình huống
+                    Điều chỉnh độ sáng PWM 1920Hz/DC dimming
+                    Original color PRO | Pro HDR | Công nghệ cảm ứng khi ướt
+                    HDR10+, Dolby Vision
+                </td>
+            </tr>
+            <tr><td>Camera sau</td><td>
+                Camera chính Leica: 50MP, ƒ/1.62, OIS, Tiêu cự tương đương 23mm
+                Camera tele Leica: 50MP, ƒ/2.0, OIS
+                Camera góc siêu rộng Leica: 50MP, ƒ/2.2,
+            </td></tr>
+            <tr><td>Camera trước</td><td>Camera trước: 32MP, ƒ/2.0, 90°, Tiêu cự 21mm</td></tr>
+            <tr><td>Chipset</td><td>Snapdragon 8 Elite (Tiến trình sản xuất 3nm)</td></tr>
+            <tr><td>Bộ nhớ trong</td><td>512 GB</td></tr>
+            <tr><td>Hệ điều hành</td><td>Android 16</td></tr>
+        </table>
+    </div>
+    <script src="~/Content/sanpham.js"></script>
+</main>
+
+

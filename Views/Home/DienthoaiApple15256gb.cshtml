@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewBag.Title = "DienthoaiApple15256gb";
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+}
+<head>
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+
+<main class="main">
+    @*Thông tin sản phẩm*@
+    <div class="product-detail">
+        @*Hình ảnh + mô tả nổi bật*@
+        <div class="product-left">
+            <img id="mainProductImage"
+                 src="https://cdn2.cellphones.com.vn/358x/media/catalog/product/i/p/iphone-15-hong.png"
+                 alt="iPhone 15" class="product-image">
+
+            <div class="highlight-box">
+                <h3>TÍNH NĂNG NỔI BẬT</h3>
+                <ul>
+                    <li>iPhone 15 có Dynamic Island hiển thị linh hoạt các cảnh báo và hoạt động trực tiếp, giúp bạn không bỏ lỡ thông tin quan trọng.</li>
+                    <li>Thiết kế bằng kính pha màu và nhôm bền bỉ, cùng khả năng chống nước và bụi, với màn hình Super Retina XDR 6,1” sáng gấp đôi dưới ánh nắng.</li>
+                    <li>Chip A16 Bionic mạnh mẽ tiết kiệm pin và hỗ trợ nhiều tính năng tiên tiến, bao gồm Phát Hiện Va Chạm để đảm bảo an toàn cho người dùng.</li>
+                </ul>
+            </div>
+        </div>
+
+        @*Giá + tùy chọn*@
+        <div class="product-right">
+            <h2>Iphone 15 256GB | Chính hãng VN/A</h2>
+            <p class="rating">⭐ 4.9 (343 đánh giá)</p>
+            <p class="price">20.990.000đ</p>
+
+            @*Chọn phiên bản*@
+            <div class="options">
+                <h4>Phiên bản</h4>
+                <div class="option-list">
+                    <button class="option selected">256GB</button>
+                </div>
+            </div>
+
+            @*Chọn màu*@
+            <div class="options">
+                <h4>Màu sắc</h4>
+                <div class="option-list">
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/i/p/iphone-15-128-gbden.png">
+                        Đen
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/i/p/iphone-15-hong.png">
+                        Hồng
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/i/p/iphone-15-128gb-vang.png">
+                        vàng
+                    </button>
+                </div>
+            </div>
+
+            @*Cụm nút hành động*@
+            <div class="action-buttons">
+                <button class="btn-installment">Trả góp 0%</button>
+                <button class="btn-buy">Mua ngay</button>
+                <button class="btn-cart">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+
+    @*Thông số kỹ thuật*@
+    <div class="specs">
+        <h3>Thông số kỹ thuật</h3>
+        <table>
+            <tr><td>Kích thước màn hình</td><td>6.1 inches Super Retina XDR OLED</td></tr>
+            <tr><td>Công nghệ màn hình</td><td>công nghệ ProMotion với tần số quét thích ứng tối đa 120Hz,Dynamic Island, màn hình luôn bật</td></tr>
+            <tr><td>Camera sau</td><td>Chính 48 MP & Phụ 12 MP, chống rung quang học dịch chuyển cảm biến thế hệ thứ hai, Focus Pixels 100%</td></tr>
+            <tr><td>Camera trước</td><td>12MP, ƒ/1.9, Tự động lấy nét theo pha Focus Pixels</td></tr>
+            <tr><td>Chipset</td><td>Apple A16 Bionic 6 nhân</td></tr>
+            <tr><td>Bộ nhớ trong</td><td>256 GB</td></tr>
+            <tr><td>Hệ điều hành</td><td>IOS 17</td></tr>
+        </table>
+    </div>
+    <script src="~/Content/sanpham.js"></script>
+</main>
+
+

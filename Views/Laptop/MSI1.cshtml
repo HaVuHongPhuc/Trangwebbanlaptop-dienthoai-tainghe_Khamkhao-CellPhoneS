@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "MSI_Modern_14_C12MO_660VN";
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+}
+
+<head>
+    <!-- CSS sản phẩm -->
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+
+<main class="main">
+    <!-- Chi tiết sản phẩm -->
+    <div class="product-detail">
+        <!-- Bên trái: Ảnh + mô tả nổi bật -->
+        <div class="product-left">
+            <img id="mainProductImage"
+                 src="~/Content/Images/msi1.png"
+                 alt="Laptop MSI Modern 14"
+                 class="product-image" />
+
+            <div class="highlight-box">
+                <h3>TÍNH NĂNG NỔI BẬT</h3>
+                <ul>
+                    <li>Trang bị chip Intel Core i5-1235U, hiệu suất cao cho công việc và giải trí.</li>
+                    <li>RAM 16GB, hỗ trợ đa nhiệm mượt mà, xử lý tốt các tác vụ nặng.</li>
+                    <li>Ổ cứng SSD 512GB PCIe, lưu trữ thoải mái dữ liệu, hình ảnh, video.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Bên phải: Tên, giá, tùy chọn -->
+        <div class="product-right">
+            <h2>Laptop MSI Modern 14 C12MO-660VN</h2>
+            <p class="rating">⭐ 4.9 (343 đánh giá)</p>
+            <p class="price">11.790.000₫</p>
+
+            <!-- Phiên bản -->
+            <div class="options">
+                <h4>Phiên bản</h4>
+                <div class="option-list">
+                    <button class="option selected">i5-1235U • 16GB</button>
+                </div>
+            </div>
+
+            <!-- Màu sắc -->
+            <div class="options">
+                <h4>Màu sắc</h4>
+                <div class="option-list">
+                    <button class="option color-option"
+                            data-img="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTClsDu8Ql6nExa6iFi1ctHFfk6X9zhUGaG9MiOvLhRH5W5SrV_2tA__GkXtHMBbusYkR7OPW-MfGcg2-KgCOQYUiuZ1miCiNywmU0sltqrVA98XjPUSXdZLkGWDADrw-SKJX2knRLqRh73&usqp=CAc">
+                        Đen
+                    </button>
+                </div>
+            </div>
+
+            <!-- Các nút hành động -->
+            <div class="action-buttons">
+                <button class="btn-installment">Trả góp 0%</button>
+                <button class="btn-buy">Mua ngay</button>
+                <button class="btn-cart">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thông số kỹ thuật -->
+    <div class="specs">
+        <h3>Thông số kỹ thuật</h3>
+        <table>
+            <tr><td>Loại Card đồ họa</td><td>Intel Iris Xe Graphics</td></tr>
+            <tr><td>Dung lượng RAM</td><td>16GB</td></tr>
+            <tr><td>Ổ cứng</td><td>512GB SSD</td></tr>
+            <tr><td>Kích thước màn hình</td><td>14 inches</td></tr>
+            <tr><td>Công nghệ màn hình</td><td>Chống chói • Góc mở 180°</td></tr>
+            <tr><td>Pin</td><td>39Wh</td></tr>
+            <tr><td>Hệ điều hành</td><td>Windows 11 Home</td></tr>
+            <tr><td>Độ phân giải màn hình</td><td>1920 × 1080 pixels (FullHD)</td></tr>
+        </table>
+    </div>
+
+    <!-- Script JS -->
+    <script src="~/Content/sanpham.js"></script>
+</main>

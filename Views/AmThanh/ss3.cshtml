@@ -1,0 +1,102 @@
+﻿@{
+    ViewBag.Title = "SamsungBudsFE";
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+}
+
+<head>
+    <!-- CSS mặc định -->
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+
+<main class="main">
+    <!-- Chi tiết sản phẩm -->
+    <div class="product-detail">
+        <!-- Cột trái -->
+        <div class="product-left">
+            <img id="mainProductImage"
+                 src="~/Content/AmThanh/ss3.png"
+                 alt="Tai nghe Samsung Galaxy Buds FE"
+                 class="product-image" />
+
+            <div class="highlight-box">
+                <h3>TÍNH NĂNG NỔI BẬT</h3>
+                <ul>
+                    <li>Thiết kế củ tai nghe êm ái, vừa vặn, phù hợp với nhiều dáng tai.</li>
+                    <li>Chống ồn chủ động ANC, mang đến trải nghiệm âm thanh yên tĩnh.</li>
+                    <li>Thời lượng pin ấn tượng lên tới 30 giờ với hộp sạc.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Cột phải -->
+        <div class="product-right">
+            <h2>Tai nghe Bluetooth Samsung Galaxy Buds FE</h2>
+            <p class="rating">⭐ 4.9 (343 đánh giá)</p>
+            <p class="price">1.250.000₫</p>
+
+            <!-- Phiên bản -->
+            <div class="options">
+                <h4>Phiên bản</h4>
+                <div class="option-list">
+                    <button class="option selected">Buds FE</button>
+                </div>
+            </div>
+
+            <!-- Màu sắc -->
+            <div class="options">
+                <h4>Màu sắc</h4>
+                <div class="option-list">
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/a/samsung-galaxy-buds-fe-trang.png">
+                        Trắng
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/a/samsung-galaxy-buds-fe-den.png">
+                            Đen
+                    </button>
+                </div>
+            </div>
+
+            <!-- Nút hành động -->
+            <div class="action-buttons">
+                <button class="btn-installment">Trả góp 0%</button>
+                <button class="btn-buy">Mua ngay</button>
+                <button class="btn-cart">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thông số kỹ thuật -->
+    <div class="specs">
+        <h3>Thông số kỹ thuật</h3>
+        <table>
+            <tr>
+                <td>Kích thước</td>
+                <td>
+                    Tai nghe: 19.2 x 17.1 x 22.2 mm<br />
+                    Hộp sạc: 50.0 x 50.0 x 27.7 mm
+                </td>
+            </tr>
+            <tr>
+                <td>Trọng lượng</td>
+                <td>
+                    Tai nghe: 5.6 g<br />
+                    Hộp sạc: 40 g
+                </td>
+            </tr>
+            <tr>
+                <td>Công nghệ âm thanh</td>
+                <td>Chống ồn chủ động ANC</td>
+            </tr>
+            <tr><td>Micro</td><td>6 micro</td></tr>
+            <tr>
+                <td>Thời lượng Pin</td>
+                <td>Tai nghe + Hộp sạc: 30 giờ</td>
+            </tr>
+            <tr><td>Hãng sản xuất</td><td>Samsung</td></tr>
+        </table>
+    </div>
+
+    <!-- Script JS -->
+    <script src="~/Content/sanpham.js"></script>
+</main>

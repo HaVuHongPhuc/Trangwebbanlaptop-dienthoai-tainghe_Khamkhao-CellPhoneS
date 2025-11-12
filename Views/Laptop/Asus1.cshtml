@@ -1,0 +1,92 @@
+﻿@{
+    ViewBag.Title = "AsusROGStrixG16";
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+}
+
+<head>
+    <!-- Kế thừa CSS mặc định -->
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+
+<main class="main">
+    <!-- Chi tiết sản phẩm -->
+    <div class="product-detail">
+        <!-- Cột trái -->
+        <div class="product-left">
+            <img id="mainProductImage"
+                 src="~/Content/Images/Asus1.png"
+                 alt="Laptop ASUS ROG Strix G16"
+                 class="product-image" />
+
+            <div class="highlight-box">
+                <h3>TÍNH NĂNG NỔI BẬT</h3>
+                <ul>
+                    <li>Vi xử lý Intel Core i7-14650HX mang lại hiệu suất cực mạnh cho gaming và tác vụ nặng.</li>
+                    <li>Màn hình 16.0 inch 240Hz với độ phân giải 2560 x 1600, hiển thị mượt mà và sắc nét.</li>
+                    <li>Card đồ họa RTX 5060 8GB xử lý đồ họa mạnh mẽ, phù hợp cho các game cấu hình cao.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Cột phải -->
+        <div class="product-right">
+            <h2>Laptop ASUS ROG Strix G16 G615JMR-S5155W</h2>
+            <p class="rating">⭐ 4.9 (343 đánh giá)</p>
+            <p class="price">41.990.000₫</p>
+
+            <!-- Phiên bản -->
+            <div class="options">
+                <h4>Phiên bản</h4>
+                <div class="option-list">
+                    <button class="option selected">RTX 5060 8GB - i7-14650HX - 32GB RAM - 1TB SSD</button>
+                </div>
+            </div>
+
+            <!-- Màu sắc -->
+            <div class="options">
+                <h4>Màu sắc</h4>
+                <div class="option-list">
+                    <button class="option color-option"
+                            data-img="https://product.hstatic.net/200000722513/product/rog_strix_g16_2025_g615_3_d66ab4_cd80734735b14547adeb6ac31bee983c_master.png">
+                        Xám
+                    </button>
+                </div>
+            </div>
+
+            <!-- Nút hành động -->
+            <div class="action-buttons">
+                <button class="btn-installment">Trả góp 0%</button>
+                <button class="btn-buy">Mua ngay</button>
+                <button class="btn-cart">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thông số kỹ thuật -->
+    <div class="specs">
+        <h3>Thông số kỹ thuật</h3>
+        <table>
+            <tr>
+                <td>Loại Card đồ họa</td>
+                <td>NVIDIA GeForce RTX 5060 8GB GDDR7 • Intel UHD Graphics</td>
+            </tr>
+            <tr><td>Dung lượng RAM</td><td>32GB</td></tr>
+            <tr><td>Ổ cứng</td><td>1TB PCIe 4.0 NVMe M.2 SSD (2 khe, hỗ trợ tối đa 2TB)</td></tr>
+            <tr><td>Kích thước màn hình</td><td>16 inches</td></tr>
+            <tr>
+                <td>Công nghệ màn hình</td>
+                <td>
+                    Độ sáng 500 nits • DCI-P3 100% • G-Sync<br />
+                    ROG Nebula Display • Dolby Vision HDR<br />
+                    Màn hình chống chói • ROG Intelligent Cooling
+                </td>
+            </tr>
+            <tr><td>Pin</td><td>90 Wh, 4-cell Li-ion</td></tr>
+            <tr><td>Hệ điều hành</td><td>Windows 11 Home</td></tr>
+            <tr><td>Độ phân giải màn hình</td><td>2560 x 1600 pixels</td></tr>
+        </table>
+    </div>
+
+    <!-- Script JS -->
+    <script src="~/Content/sanpham.js"></script>
+</main>

@@ -1,0 +1,110 @@
+﻿
+@{
+    ViewBag.Title = "DienthoaiXiaomi14Tpro";
+    Layout = "~/Views/Home/CellPhoneS_Layout.cshtml";
+}
+<head>
+    <link rel="stylesheet" href="~/Content/SanPham.css" />
+</head>
+
+<main class="main">
+    @*Thông tin sản phẩm*@
+    <div class="product-detail">
+        @*Hình ảnh + mô tả nổi bật*@
+        <div class="product-left">
+            <img id="mainProductImage"
+                 src="https://cdn2.cellphones.com.vn/358x/media/catalog/product/x/i/xiaomi-14-pre-trang_1.png"
+                 alt="iPhone 14" class="product-image">
+
+            <div class="highlight-box">
+                <h3>TÍNH NĂNG NỔI BẬT</h3>
+                <ul>
+                    <li>  Hiệu năng Xiaomi 14T Pro 5G mạnh mẽ với chip MediaTek Dimensity 9300+ - Hiệu suất tối ưu cho các tác vụ nặng như chơi game, xử lý đồ họa và đa nhiệm mượt mà. </li>
+                    <li>  Màn hình AMOLED 6.67 inch 144Hz siêu mượt - Trải nghiệm hình ảnh sắc nét, mọi thao tác trở nên mượt mà hơn, từ lướt web đến chơi game.</li>
+                    <li>  Quay video 8K HDR mang lại những thước phim chất lượng cao với Dolby Vision HDR và 4K HDR10+</li>
+                    <li>  Pin 5.000mAh và sạc nhanh 120W - Điện thoại Xiaomi 14T Pro 5G giúp bạn sạc đầy chỉ trong vòng chưa đến 20 phút, đảm bảo thời lượng sử dụng lâu dài suốt cả ngày.</li>
+                </ul>
+            </div>
+        </div>
+
+        @*Giá + tùy chọn*@
+        <div class="product-right">
+            <h2>Xiaomi 14 12GB 256GB | Chính hãng VN/A</h2>
+            <p class="rating">⭐ 4.9 (343 đánh giá)</p>
+            <p class="price">18.990.000đ</p>
+
+            @*Chọn phiên bản*@
+            <div class="options">
+                <h4>Phiên bản</h4>
+                <div class="option-list">
+                    <button class="option selected">256GB</button>
+                </div>
+            </div>
+
+            @*Chọn màu*@
+            <div class="options">
+                <h4>Màu sắc</h4>
+                <div class="option-list">
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/x/i/xiaomi-14-pre-xanh-la_1.png">
+                        Xanh
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/x/i/xiaomi-14-pre-trang_1.png">
+                        Trắng
+                    </button>
+                    <button class="option color-option"
+                            data-img="https://cdn2.cellphones.com.vn/358x/media/catalog/product/x/i/xiaomi-14-pre-den_1.png">
+                        Đen
+                    </button>
+                </div>
+            </div>
+
+            @*Cụm nút hành động*@
+            <div class="action-buttons">
+                <button class="btn-installment">Trả góp 0%</button>
+                <button class="btn-buy">Mua ngay</button>
+                <button class="btn-cart">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+
+    @*Thông số kỹ thuật*@
+    <div class="specs">
+        <h3>Thông số kỹ thuật</h3>
+        <table>
+            <tr><td>Kích thước màn hình</td><td>6.67 inches LTPO OLED</td></tr>
+            <tr>
+                <td>Công nghệ màn hình</td>
+                <td>
+                    Tần số quét màn hình 120 Hz, Màn hình siêu thị 1,5K, 68 tỷ màu, Dolby Vision, HDR10+, 2800 nits, HDR Vivid
+                </td>
+            </tr>
+            <tr>
+                <td>Camera sau</td>
+                <td>
+                    Camera góc rộng: 50 MP, f/1.6, 23mm, 2.4µm, PDAF, OIS
+                    Camera chụp xa: 50 MP, f/1.9, 50mm, 1/2.88", 0.61µm, PDAF, 2x optical zoom
+                    Camera góc siêu rộng: 50 MP, f/1.8, 12mm, 122˚, 1/2.51", PDAF
+                </td>
+            </tr>
+            <tr>
+                <td>Camera trước</td>
+                <td>
+                    32MPƒ/2,0
+                    Độ dài tiêu cự tương đương 25 mm
+                    FOV 80,8˚
+                    Chế độ ban đêm
+                    HDR
+                    Tính năng chụp ảnh bằng lòng bàn tay
+                </td>
+            </tr>
+            <tr><td>Chipset</td><td>Qualcomm Snapdragon 8 Gen 3 (4 nm)</td></tr>
+            <tr><td>Bộ nhớ trong</td><td>256 GB</td></tr>
+            <tr><td>Hệ điều hành</td><td>Android 16</td></tr>
+        </table>
+    </div>
+    <script src="~/Content/sanpham.js"></script>
+</main>
+
+
